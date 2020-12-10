@@ -13,4 +13,4 @@ devtools::install_github("jpablo91/ICE-R")
 
 # Getting started
 
-
+see the package [vignette](vignette/GettingStarted.md) to get started
