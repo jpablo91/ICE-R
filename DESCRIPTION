@@ -1,5 +1,5 @@
 Package: ICER
-Title: Tools for Spatio Temporal Network Analysis 
+Title: Tools for analyzing  cost effectiveness data
 Version: 0.0.0.1
 Authors@R: 
     person(given = "Jose Pablo",
@@ -7,9 +7,9 @@ Authors@R:
            role = c("aut", "cre"),
            email = "jpgo@ucdavis.edu",
            comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: Tools for Spatio Temporal Network Analysis
+Description: Tools for analyzing  cost effectiveness data
 License: What license it uses
 Encoding: UTF-8
 LazyData: true
-# Imports: sf, dplyr, sp
+# Imports: dplyr, ggplot2
 RoxygenNote: 7.1.1
