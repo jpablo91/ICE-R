@@ -1,4 +1,9 @@
-##### Function to bootstrap the data #####
+#' Function to bootstrap the data
+#' 
+#' @param data A data.frame that is going to be bootstrapped.
+#' @param strata The name of the column that indicates the stratification groups.
+#' @param N_Sim Number of bootstraps.
+#' @export
 Boot_sample <- function(data, strata, N_Sim = 1000){
   # data = data; strata = 'tx'; N_Sim = 10
   bs_l <- lapply(1:N_Sim, function(x){
