@@ -1,11 +1,15 @@
 Package: ICER
-Title: Package for analyzing cost-effect data
-Version: 0.0
-Authors@R: person("Jose", "Gomez-Vazquez", email = "jpgo@ucdavis.edu",
-                  role = c("aut", "cre"))
-Description: Package for analyzing cost-effect data
-Depends: R (>= 3.1.0)
-License: What license is it under?
+Title: Tools for Spatio Temporal Network Analysis 
+Version: 0.0.0.1
+Authors@R: 
+    person(given = "Jose Pablo",
+           family = "Gomez-Vazquez",
+           role = c("aut", "cre"),
+           email = "jpgo@ucdavis.edu",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: Tools for Spatio Temporal Network Analysis
+License: What license it uses
 Encoding: UTF-8
 LazyData: true
+# Imports: sf, dplyr, sp
 RoxygenNote: 7.1.1
