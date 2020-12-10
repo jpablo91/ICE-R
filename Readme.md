@@ -11,4 +11,6 @@ You can install `ICE-R` development version from [GitHub](https://github.com/jpa
 devtools::install_github("jpablo91/ICE-R")
 ```
 
+# Getting started
+
 
